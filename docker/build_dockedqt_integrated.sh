@@ -1,0 +1,1 @@
+docker build -t dockedqt-integrated2 -f integrated2.Dockerfile .
