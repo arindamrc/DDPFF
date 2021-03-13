@@ -38,6 +38,29 @@ Load Artificial Scenes | File &rarr; Load Scene | Ctrl+Shift+L
 Choose scene | Scenes &rarr; Choose one of 6 scenes | 
 
 
+## Parameter symbol-name mappings
+
+| Parameter symbol in paper | Parameter name in application config |
+--- | --- 
+$\kappa_{point}$ | `c_point`
+$\gamma_{point}$ | `pointThreshold_min`
+$\epsilon_{point}$ | `pointThreshold_max`
+$\kappa_{flood}$ | `c_plane`
+$\gamma_{flood}$ | `planeThreshold_flood`
+$\epsilon_{flood}$ | `planeThreshold_flood_max`
+$\kappa_{merge}$ | `c_plane_merge`
+$\gamma_{merge}$ | `planeThreshold_merge`
+$\epsilon_{merge}$ | `planeThreshold_merge_max`
+$\kappa_{angle}$ | `c_angle`
+$\gamma_{angle}$ | `angleThresholdFloodFill`
+$\epsilor_{angle}$ | `angleThresholdFloodFill_max`
+$\kappa_{rho}$ | `c_range`
+$\gamma_{rho}$ | `normalSampleDistance_min`
+$\epsilon_{rho}$ | `normalSampleDistance_max`
+
+The values of the parameters can be found in the paper.
+
+
 ## Software requirements
 
 
