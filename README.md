@@ -5,7 +5,7 @@ Accompanying code for the paper **Plane Segmentation Using Depth-Dependent Flood
 
 
 ## Build and execution intructions
-----------------------------------
+
 
 1. Create a build folder (in source or out of source). Here we assume we create a build folder within the source directory:
     `$mkdir build`
@@ -18,7 +18,7 @@ Accompanying code for the paper **Plane Segmentation Using Depth-Dependent Flood
 
 
 ## Application usage guide
---------------------------
+
 
 A window appears when the application is executed. 
 
@@ -39,7 +39,7 @@ Choose scene | Scenes &rarr; Choose one of 6 scenes |
 
 
 ## Software requirements
-------------------------
+
 
 1. C++ 17
 2. Cmake 3.8 or greater
