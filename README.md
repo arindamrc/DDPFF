@@ -49,3 +49,12 @@ Choose scene | Scenes &rarr; Choose one of 6 scenes |
 6. QGLViewer
 7. OpenCV 4
 8. PCL 1.10
+
+
+## Using Docker
+
+It is easiest to set up the development environment using docker. An image with the complete list of required software is available at [dockerhub](https://hub.docker.com/repository/docker/arindamrc/ddpffenv-integrated). 
+
+First, update the location of the source directory in the file `docker/args.sh`. Change the variable `SOURCELOC` to point to the source local directory of the repository. 
+
+Now, to create the development environment simply navigate to the directory "docker" and execute `$./init_qtcreator_integrated.sh`. This sets up a container with all the requisite softwares as well as launches the qtcreator IDE. This container shares the source directory and the `data` directory with the host system. Import the project into the IDE, build and execute it.
