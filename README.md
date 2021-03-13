@@ -53,7 +53,7 @@ Choose scene | Scenes &rarr; Choose one of 6 scenes |
 
 ## Using Docker
 
-It is easiest to set up the development environment using docker. An image with the complete list of required software is available at [dockerhub](https://hub.docker.com/repository/docker/arindamrc/ddpffenv-integrated). 
+It is easiest to set up the development environment using docker. An image with the complete list of required softwares is available at [dockerhub](https://hub.docker.com/repository/docker/arindamrc/ddpffenv-integrated). 
 
 First, update the location of the source directory in the file `docker/args.sh`. Change the variable `SOURCELOC` to point to the source local directory of the repository. 
 
