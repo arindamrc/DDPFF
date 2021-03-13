@@ -42,7 +42,7 @@ Choose scene | Scenes &rarr; Choose one of 6 scenes |
 
 | Parameter symbol in paper | Parameter name in application config |
 --- | --- 
-$\\kappa_{point}$ | `c_point`
+$\kappa_{point}$ | `c_point`
 $\gamma_{point}$ | `pointThreshold_min`
 $\epsilon_{point}$ | `pointThreshold_max`
 $\kappa_{flood}$ | `c_plane`
@@ -59,6 +59,7 @@ $\gamma_{rho}$ | `normalSampleDistance_min`
 $\epsilon_{rho}$ | `normalSampleDistance_max`
 
 The values of the parameters can be found in the paper.
+h<sub>&theta;</sub>(x) = &theta;<sub>o</sub> x + &theta;<sub>1</sub>x
 
 
 ## Software requirements
