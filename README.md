@@ -68,7 +68,7 @@ The application supports the following datasets:
 | Dataset | URL | Instructions |
 --- | --- | ---
 Kinect dataset[1] | http://www.ais.uni-bonn.de/download/segmentation/kinect.zip | Rename the archive to *kinect.pcd.gt.zip* and load.
-SEGCOMP ABW dataset[2] | ftp://figment.csee.usf.edu/pub/segmentation-comparison/ABW-TEST-IMAGES.tar | Rename the archive to *ABW-TEST-IMAGES.abw.tar* and load
+SEGCOMP ABW dataset[2] | ftp://figment.csee.usf.edu/pub/segmentation-comparison/ABW-TEST-IMAGES.tar | Navigate to `globals/include/globals/constants.h` and change `IMAGE_WIDTH` and `IMAGE_HEIGHT` to 512. Recompile. Rename the archive to *ABW-TEST-IMAGES.abw.tar* and load.
 TUM RGB-D Slam dataset[3] | https://vision.in.tum.de/data/datasets/rgbd-dataset/download | Each sequence which is a *\*.tgz* file can be loaded individually.
 Images collected using Asus Xtion Pro Live | https://drive.google.com/file/d/1qqIUQoXyZsv3jmwHhzcJK8Msy8loSWrN/view?usp=sharing | Uncompress and load individual files.
 
