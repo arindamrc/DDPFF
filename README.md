@@ -24,16 +24,16 @@ A window appears when the application is executed.
 
 | Function | Navigation | Shortcut |
 --- | --- | ---
-Load point cloud frames | File -> Select | Ctrl+L
-Navigate between frames | `|<`, `<`, `>`, `>|` buttons| Right and left arrow keys
-Configuration |  View -> Config | C
-Toggle point cloud | View -> Point Cloud | P
-Activate DDPFF algorithm | View -> Depth dependent planar segments | Ctrl+D
-Activate algorithm |  View -> Show Visualization | V
-Activate merged planar segments | View -> Show merged segments | Shift +U
-Activate unmerged planar segments | View -> Show unmerged segments | U
-Activate camera view | View -> Camera view | G
-Activate ground truth planes | View -> Show ground truth planes | Ctrl+G
+Load point cloud frames | File &rarr; Select | Ctrl+L
+Navigate between frames | `\|<`, `<`, `>`, `>\|` buttons| Right and left arrow keys
+Configuration |  View &rarr; Config | C
+Toggle point cloud | View &rarr; Point Cloud | P
+Activate DDPFF algorithm | View &rarr; Depth dependent planar segments | Ctrl+D
+Activate algorithm |  View &rarr; Show Visualization | V
+Activate merged planar segments | View &rarr; Show merged segments | Shift +U
+Activate unmerged planar segments | View &rarr; Show unmerged segments | U
+Activate camera view | View &rarr; Camera view | G
+Activate ground truth planes | View &rarr; Show ground truth planes | Ctrl+G
 
 
 ## Software requirements
