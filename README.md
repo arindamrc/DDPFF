@@ -42,24 +42,23 @@ Choose scene | Scenes &rarr; Choose one of 6 scenes |
 
 | Parameter symbol in paper | Parameter name in application config |
 --- | --- 
-$\kappa_{point}$ | `c_point`
-$\gamma_{point}$ | `pointThreshold_min`
-$\epsilon_{point}$ | `pointThreshold_max`
-$\kappa_{flood}$ | `c_plane`
-$\gamma_{flood}$ | `planeThreshold_flood`
-$\epsilon_{flood}$ | `planeThreshold_flood_max`
-$\kappa_{merge}$ | `c_plane_merge`
-$\gamma_{merge}$ | `planeThreshold_merge`
-$\epsilon_{merge}$ | `planeThreshold_merge_max`
-$\kappa_{angle}$ | `c_angle`
-$\gamma_{angle}$ | `angleThresholdFloodFill`
-$\epsilor_{angle}$ | `angleThresholdFloodFill_max`
-$\kappa_{rho}$ | `c_range`
-$\gamma_{rho}$ | `normalSampleDistance_min`
-$\epsilon_{rho}$ | `normalSampleDistance_max`
+&kappa;<sub>point</sub> | `c_point`
+&gamma;<sub>point</sub> | `pointThreshold_min`
+&epsilon;<sub>point</sub> | `pointThreshold_max`
+&kappa;<sub>flood</sub> | `c_plane`
+&gamma;<sub>flood</sub> | `planeThreshold_flood`
+&epsilon;<sub>flood</sub> | `planeThreshold_flood_max`
+&kappa;<sub>merge</sub> | `c_plane_merge`
+&gamma;<sub>merge</sub> | `planeThreshold_merge`
+&epsilon;<sub>merge</sub> | `planeThreshold_merge_max`
+&kappa;<sub>angle</sub> | `c_angle`
+&gamma;<sub>angle</sub> | `angleThresholdFloodFill`
+&epsilon;<sub>angle</sub> | `angleThresholdFloodFill_max`
+&kappa;<sub>rho</sub> | `c_range`
+&gamma;<sub>rho</sub> | `normalSampleDistance_min`
+&epsilon;<sub>rho</sub> | `normalSampleDistance_max`
 
 The values of the parameters can be found in the paper.
-h<sub>&theta;</sub>(x) = &theta;<sub>o</sub> x + &theta;<sub>1</sub>x
 
 
 ## Software requirements
