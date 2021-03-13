@@ -42,7 +42,7 @@ Choose scene | Scenes &rarr; Choose one of 6 scenes |
 
 | Parameter symbol in paper | Parameter name in application config |
 --- | --- 
-$\kappa_{point}$ | `c_point`
+$\\kappa_{point}$ | `c_point`
 $\gamma_{point}$ | `pointThreshold_min`
 $\epsilon_{point}$ | `pointThreshold_max`
 $\kappa_{flood}$ | `c_plane`
