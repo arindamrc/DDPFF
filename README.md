@@ -24,7 +24,7 @@ A window appears when the application is executed.
 
 | Function | Navigation | Shortcut |
 --- | --- | ---
-Load point cloud frames | File &rarr; Select | Ctrl+L
+Load point cloud frames | File &rarr; Load state | Ctrl+L
 Navigate between frames | `\|<`, `<`, `>`, `>\|` buttons| Right and left arrow keys
 Configuration |  View &rarr; Config | C
 Toggle point cloud | View &rarr; Point Cloud | P
@@ -34,6 +34,8 @@ Activate merged planar segments | View &rarr; Show merged segments | Shift +U
 Activate unmerged planar segments | View &rarr; Show unmerged segments | U
 Activate camera view | View &rarr; Camera view | G
 Activate ground truth planes | View &rarr; Show ground truth planes | Ctrl+G
+Load Artificial Scenes | File &rarr; Load Scene | Ctrl+Shift+L
+Choose scene | Scenes &rarr; Choose one of 6 scenes | 
 
 
 ## Software requirements
