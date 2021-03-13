@@ -73,7 +73,7 @@ Thumbs.db
 
 # Build directories
 # -----------------
-build-*
+build*
 
 # Auxilliary files
 # ----------------
