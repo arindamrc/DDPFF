@@ -54,9 +54,9 @@ Choose scene | Scenes &rarr; Choose one of 6 scenes |
 &kappa;<sub>angle</sub> | `c_angle`
 &gamma;<sub>angle</sub> | `angleThresholdFloodFill`
 &epsilon;<sub>angle</sub> | `angleThresholdFloodFill_max`
-&kappa;<sub>rho</sub> | `c_range`
-&gamma;<sub>rho</sub> | `normalSampleDistance_min`
-&epsilon;<sub>rho</sub> | `normalSampleDistance_max`
+&kappa;<sub>&rho;</sub> | `c_range`
+&gamma;<sub>&rho;</sub> | `normalSampleDistance_min`
+&epsilon;<sub>&rho;</sub> | `normalSampleDistance_max`
 
 The values of the parameters can be found in the paper.
 
