@@ -58,3 +58,24 @@ It is easiest to set up the development environment using docker. An image with 
 First, update the location of the source directory in the file `docker/args.sh`. Change the variable `SOURCELOC` to point to the source local directory of the repository. 
 
 Now, to create the development environment simply navigate to the directory "docker" and execute `$./init_qtcreator_integrated.sh`. This sets up a container with all the requisite softwares as well as launches the qtcreator IDE. This container shares the source directory and the `data` directory with the host system. Import the project into the IDE, build and execute it. To launch qtcreator subsequently use `./start_qtcreator_integrated`.
+
+
+## Datasets
+
+The application supports the following datasets:
+
+
+| Dataset | URL | Instructions |
+--- | --- | ---
+[Kinect dataset][1] | http://www.ais.uni-bonn.de/download/segmentation/kinect.zip | Rename the archive to *kinect.pcd.gt.zip* and load.
+[SEGCOMP ABW dataset][2] | ftp://figment.csee.usf.edu/pub/segmentation-comparison/ABW-TEST-IMAGES.tar | Rename the archive to *ABW-TEST-IMAGES.abw.tar* and load
+[TUM RGB-D Slam dataset][3] | https://vision.in.tum.de/data/datasets/rgbd-dataset/download | Each sequence which is a *\*.tgz* file can be loaded individually.
+
+
+
+## References
+
+[1]: Bastian Oehler, Joerg Stueckler, Jochen Welle, Dirk Schulz, and Sven Behnke. "Efficient Multi-Resolution Plane Segmentation of 3D Point Clouds" Proceedings of the 4th International Conference on Intelligent Robotics and Applications (ICIRA), Aachen, December 2011
+[2]: A. Hoover, G. Jean-Baptiste, X. Jiang, P. J. Flynn, H. Bunke, D. B. Goldgof, K. Bowyer, D. W. Eggert, A. Fitzgibbon, and R. B. Fisher, "An experimental comparison of range image segmentation algorithms," IEEE transactions on pattern analysis and machine intelligence, vol. 18, no. 7, pp. 673–689, 1996.
+[3]: J. Sturm, N. Engelhard, F. Endres, W. Burgard and D. Cremers, A Benchmark for the Evaluation of RGB-D SLAM Systems, Proc. of the International Conference on Intelligent Robot Systems (IROS), Oct. 2012.
+
