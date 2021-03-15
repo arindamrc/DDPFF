@@ -32,10 +32,13 @@ Activate DDPFF algorithm | View &rarr; Depth dependent planar segments | Ctrl+D
 Activate algorithm |  View &rarr; Show Visualization | V
 Activate merged planar segments | View &rarr; Show merged segments | Shift +U
 Activate unmerged planar segments | View &rarr; Show unmerged segments | U
+Show normals | View &rarr; Show plane normals | N
 Activate camera view | View &rarr; Camera view | G
 Activate ground truth planes | View &rarr; Show ground truth planes | Ctrl+G
 Load Artificial Scenes | File &rarr; Load Scene | Ctrl+Shift+L
 Choose scene | Scenes &rarr; Choose one of 6 scenes | 
+
+The camera position in the artificial scenes can be modified by updating the scene parameters in the *config* widget. 
 
 
 ## Parameter symbol-name mappings
