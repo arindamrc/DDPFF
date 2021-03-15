@@ -151,12 +151,12 @@ App::App(QWidget *parent) :
     configViewAction->setChecked(false);
     connect(configViewAction, SIGNAL(triggered()), this, SLOT(toggleConfig()));
 
-    QAction* graphViewAction = viewMenu->addAction(tr("&Graph"));
-    graphViewAction->setToolTip(tr("Toggles the graph widget."));
-    graphViewAction->setShortcut(QKeySequence(tr("G")));
-    graphViewAction->setCheckable(true);
-    graphViewAction->setChecked(false);
-    connect(graphViewAction, SIGNAL(triggered()), this, SLOT(toggleGraph()));
+    QAction* cameraViewAction = viewMenu->addAction(tr("&Camera view"));
+    cameraViewAction->setToolTip(tr("Toggles the camera view widget."));
+    cameraViewAction->setShortcut(QKeySequence(tr("G")));
+    cameraViewAction->setCheckable(true);
+    cameraViewAction->setChecked(false);
+    connect(cameraViewAction, SIGNAL(triggered()), this, SLOT(toggleCameraView()));
 
     viewMenu->addSeparator();
 
@@ -492,7 +492,7 @@ App::App(QWidget *parent) :
 
     connect(&cameraControlLoop, SIGNAL(messageOut(QString)), this, SLOT(messageIn(QString)));
 
-    toggleGraph();
+    toggleCameraView();
     toggleConfig();
 
 	// Animation components.
@@ -759,7 +759,7 @@ void App::messageIn(QString m)
 }
 
 // Toggles the graph widget.
-void App::toggleGraph()
+void App::toggleCameraView()
 {
     if (verticalSplitterBottom->isHidden())
 		verticalSplitterBottom->show();

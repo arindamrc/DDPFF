@@ -6,7 +6,6 @@
 #include "utils/ColorUtil.h"
 #include "utils/utilities.h"
 
-#include <opencv2/core.hpp>
 #include <random>
 #include <memory>
 #include <QPainter>

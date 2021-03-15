@@ -6,7 +6,6 @@
 #include <QStringList>
 #include <QMutex>
 #include <typeinfo>
-#include <opencv2/core/mat.hpp>
 #include <array>
 #include <memory>
 

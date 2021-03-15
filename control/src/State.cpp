@@ -2,7 +2,6 @@
 #include <QDir>
 #include <QDateTime>
 #include <QDataStream>
-#include <opencv4/opencv2/imgproc.hpp>
 #include <stdlib.h>
 #include <time.h>
 #include <QDir>

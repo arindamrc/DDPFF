@@ -11,7 +11,6 @@ list(APPEND CMAKE_MODULE_PATH ${CMAKE_CURRENT_SOURCE_DIR}/../cmake)
 
 find_package(Eigen3 3.3 REQUIRED NO_MODULE)
 find_package(Qt5 COMPONENTS Core Gui REQUIRED)
-find_package(OpenCV REQUIRED)
 find_package(OpenNI2 REQUIRED)
 
 set(CMAKE_AUTOMOC ON)
@@ -40,7 +39,6 @@ target_link_libraries(${PROJECT_NAME} PUBLIC
     Qt5::Core
     Qt5::Gui
     Eigen3::Eigen
-    ${OpenCV_LIBS}
     ${OPENNI2_LIBRARIES}
     Rep
     Scenes

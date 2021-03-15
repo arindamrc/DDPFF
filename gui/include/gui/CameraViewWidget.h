@@ -4,8 +4,6 @@
 #include <GL/glew.h>
 #include <QWidget>
 #include <QImage>
-#include <opencv2/imgproc.hpp>
-#include <opencv2/core.hpp>
 #include <QScrollArea>
 
 #include "globals/constants.h"

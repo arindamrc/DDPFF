@@ -14,7 +14,6 @@ find_package(OpenGL REQUIRED)
 find_package(GLUT REQUIRED)
 find_package(Qt5 COMPONENTS Core Xml OpenGL REQUIRED)
 find_package(QGLViewer REQUIRED)
-find_package(OpenCV REQUIRED)
 
 #Add a library with the above sources
 add_library(${PROJECT_NAME} SHARED
@@ -33,7 +32,6 @@ target_link_libraries(${PROJECT_NAME}
     ${OPENGL_LIBRARIES}
     ${GLUT_LIBRARY}
     ${QGLVIEWER_LIBRARY}
-    ${OpenCV_LIBS}
     Utils
     Globals
 )

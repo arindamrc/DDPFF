@@ -11,7 +11,6 @@ find_package(Eigen3 3.3 REQUIRED NO_MODULE)
 find_package(OpenGL REQUIRED)
 find_package(GLUT REQUIRED)
 find_package(Qt5 COMPONENTS Core Gui REQUIRED)
-find_package(Armadillo REQUIRED)
 find_package(OpenCV REQUIRED)
 find_package(PCL QUIET COMPONENTS common io)
 

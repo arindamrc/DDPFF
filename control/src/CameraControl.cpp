@@ -4,7 +4,6 @@
 #include "globals/Config.h"
 #include "globals/constants.h"
 
-#include <opencv4/opencv2/ximgproc.hpp>
 #include <assert.h>
 #include <QDateTime>
 

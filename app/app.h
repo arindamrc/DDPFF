@@ -67,7 +67,7 @@ public slots:
     void cameraLostIn();
     void cameraDetectedIn();
     void toggleConfig();
-    void toggleGraph();
+    void toggleCameraView();
     void toggleCamera();
     void toggleCameraTransform();
     void animate();

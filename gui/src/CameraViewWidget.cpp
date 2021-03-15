@@ -6,7 +6,6 @@
 #include "utils/utilities.h"
 #include "control/State.h"
 
-#include <opencv2/ximgproc.hpp>
 #include <QtGlobal>
 #include <QMouseEvent>
 #include <QPainter>

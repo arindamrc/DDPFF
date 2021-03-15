@@ -7,7 +7,6 @@
 #include <fstream>
 #include <iostream>
 #include <QProcess>
-#include <opencv2/imgcodecs.hpp>
 #include <QDebug>
 #include <stdio.h>
 #if __has_include(<pcl/io/pcd_io.h>)

@@ -11,7 +11,6 @@
 #include <fstream>
 #include <iostream>
 #include <QProcess>
-#include <opencv2/imgcodecs.hpp>
 #include <QDebug>
 #include <stdio.h>
 #include <QFileInfo>

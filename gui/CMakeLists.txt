@@ -14,7 +14,6 @@ find_package(GLUT REQUIRED)
 find_package(Qt5 COMPONENTS Core Xml OpenGL Gui Widgets REQUIRED)
 find_package(QGLViewer REQUIRED)
 find_package(OpenGL REQUIRED)
-find_package(OpenCV REQUIRED)
 find_package(GLEW REQUIRED)
 
 set(CMAKE_AUTOMOC ON)
@@ -46,7 +45,6 @@ target_link_libraries(${PROJECT_NAME} PUBLIC
     Qt5::OpenGL
     Qt5::Gui
     ${GLEW_LIBRARIES}
-    ${OpenCV_LIBS}
     ${OPENGL_LIBRARIES}
     ${GLUT_LIBRARY}
     ${QGLVIEWER_LIBRARY}

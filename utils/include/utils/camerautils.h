@@ -4,7 +4,6 @@
 #include "globals/constants.h"
 
 #include <cstdlib>
-#include <opencv2/core/types.hpp>
 
 namespace utils {
 
