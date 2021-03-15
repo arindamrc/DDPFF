@@ -38,7 +38,7 @@ Activate ground truth planes | View &rarr; Show ground truth planes | Ctrl+G
 Load Artificial Scenes | File &rarr; Load Scene | Ctrl+Shift+L
 Choose scene | Scenes &rarr; Choose one of 6 scenes | 
 
-The camera position in the artificial scenes can be modified by updating the scene parameters in the *config* widget. They can also be adjusted using the arrow keys and the *Ctrl* and *Shift* modifiers. Please select Scenes &rarr; Adjust Scene first to enable scene parameter updates using the arrow keys.
+The camera position in the artificial scenes can be modified by updating the scene parameters in the *config* widget. They can also be adjusted using the arrow keys and the *Ctrl* and *Shift* modifiers. Please select *Scenes &rarr; Adjust Scene* first to enable scene parameter updates using the arrow keys.
  
 
 ## Parameter symbol-name mappings
