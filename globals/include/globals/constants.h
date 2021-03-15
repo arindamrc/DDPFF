@@ -19,12 +19,7 @@ using integer_t = int;
 using unsigned_t = size_t;
 using depth_t = uint16_t;
 
-inline const real_t G = 9.81;
 inline const real_t PI = 3.1415926535897932384626433832795;
-inline const real_t PII = 2.0*PI;
-inline const real_t PI2 = 1.5707963267948965579989817342721;
-inline const real_t PI4 = 0.78539816339744830961566084581988;
-inline const real_t SPI = 1.7724538509055160272981674833411; // sqrt of pi
 inline const real_t RAD_TO_DEG =  180.0 / PI;
 inline const real_t DEG_TO_RAD =  PI / 180.0;
 inline const real_t EPSILON = 1.0E-6;
@@ -42,7 +37,6 @@ inline const real_t ASPECT_RATIO = IMAGE_WIDTH / IMAGE_HEIGHT;
 
 inline const int SAMPLE_FACTOR = 1;
 inline const int NUMBER_OF_POINTS = IMAGE_HEIGHT*IMAGE_WIDTH;
-inline const bool WITH_DEPTH = false;
 
 inline static QMutex gMutex;
 

@@ -1626,7 +1626,7 @@ size_t DDPFF::FloodFill::flood(const size_t &startRow, const size_t &startCol, c
 
     int increment = 0, decrement = 0, startX = 0, lastX = 0;
 
-    const int skip = int(config.normalSampleDistance_min);
+    const int skip = 1;
 
     while (!floodTracker_.empty()) {
 
