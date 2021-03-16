@@ -3,7 +3,7 @@
 
 Accompanying code for the paper **Plane Segmentation Using Depth-Dependent Flood Fill** by Arindam Roychoudhury, Marcell Missura and Maren Bennewitz submitted to IROS, 2021.
 
-The source files containing the algorithm are [DDPFF.h](rep/include/rep/DDPFF.h) and [DDPFF.cpp](DDPFF/rep/src/DDPFF.cpp).
+The source files containing the algorithm are [DDPFF.h](rep/include/rep/DDPFF.h) and [DDPFF.cpp](rep/src/DDPFF.cpp).
 
 
 ## Build and execution intructions
