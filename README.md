@@ -1,7 +1,7 @@
 # DDPFF
 -------------
 
-Accompanying code for the paper **Plane Segmentation Using Depth-Dependent Flood Fill** by Arindam Roychoudhury, Marcell Missura and Maren Bennewitz submitted to IROS, 2021.
+Accompanying code for the paper **Plane Segmentation Using Depth-Dependent Flood Fill** [(pdf)](https://www.hrl.uni-bonn.de/publications/roychoudhury21iros.pdf) by Arindam Roychoudhury, Marcell Missura and Maren Bennewitz accepted at IROS, 2021.
 
 The source files containing the algorithm are [DDPFF.h](rep/include/rep/DDPFF.h) and [DDPFF.cpp](rep/src/DDPFF.cpp).
 
@@ -101,6 +101,7 @@ TUM RGB-D Slam dataset[3] | https://vision.in.tum.de/data/datasets/rgbd-dataset/
 Point clouds collected using Asus Xtion Pro Live | https://drive.google.com/file/d/1qqIUQoXyZsv3jmwHhzcJK8Msy8loSWrN/view?usp=sharing | Uncompress and load individual files.
 
 Please use `conf/configABW.conf`  when using the SEGCOMP ABW dataset. For the other datasets either `conf/config5.conf` (for higher accuracy) or `conf/config10.conf` (for higher performance) would work. Please rename each configuration files to `conf/config.conf` before using them.
+
 
 ## References
 
